@@ -1,10 +1,3 @@
-"""
-This is just a utility that I use to extract the projector for quantized models.
-It is NOT necessary at all to train, or run inference/serve demos.
-Use this script ONLY if you fully understand its implications.
-"""
-
-
 import os
 import argparse
 import torch
