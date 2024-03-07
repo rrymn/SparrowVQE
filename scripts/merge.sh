@@ -1,6 +1,5 @@
 #!/bin/bash
-MODEL_CKPT="SparrowVQE-3b-stage2-lora"
-# MODEL_CKPT="imp-v1-3b-lora" # eval your own checkpoint
+MODEL_CKPT="SparrowVQE-3b-stage2"
 
 python -m llava_vqe.eval.model_merge \
     --model-path ./checkpoints/$MODEL_CKPT \
