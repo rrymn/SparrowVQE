@@ -19,7 +19,7 @@ deepspeed llava_vqe/train/train_mem.py \
     --group_by_modality_length True \
     --bf16 False \
     --fp16 True \
-    --output_dir ./checkpoints/SparrowVQE-3b-fft \
+    --output_dir ./checkpoints/SparrowVQE-3b-stage-2 \
     --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 4 \
