@@ -7,7 +7,7 @@
 
 
 <div class="center-div", align="center">
-    <table width="40%" height="auto">
+    <table width="100%" height="auto">
         <tr>
             <td align="center">
                 <a href="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb">[Google Colab Demo]</a>
