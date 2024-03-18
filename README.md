@@ -5,11 +5,17 @@
   <img src="https://cdn-uploads.huggingface.co/production/uploads/650c7fbb8ffe1f53bdbe1aec/DTjDSq2yG-5Cqnk6giPFq.jpeg" width="40%" height="auto"/>
 </p>
 
-<center>
-    <a href="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb">[Google Colab Demo]</a>
-    <a href="https://huggingface.co/rrymn/SparrowVQE">[🤗 HuggingFace]</a>
-</center>
 
+<div class="center-div">
+    <table width="40%" height="auto">
+        <tr>
+            <td align="center">
+                <a href="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb">[Google Colab Demo]</a>
+                <a href="https://huggingface.co/rrymn/SparrowVQE">[🤗 HuggingFace]</a>
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 
