@@ -6,7 +6,7 @@
 </p>
 
 
-<div class="center-div">
+<div class="center-div", align="center">
     <table width="40%" height="auto">
         <tr>
             <td align="center">
