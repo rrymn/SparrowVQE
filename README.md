@@ -5,11 +5,9 @@
   <img src="https://cdn-uploads.huggingface.co/production/uploads/650c7fbb8ffe1f53bdbe1aec/DTjDSq2yG-5Cqnk6giPFq.jpeg" width="40%" height="auto"/>
 </p>
 
-Demo 
-<a href="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb" target="_blank">
-<img src=https://colab.research.google.com/assets/colab-badge.svg style="margin-bottom: 5px;" />
-</a>
-<a href ="https://huggingface.co/rrymn/SparrowVQE"> 🤗 HuggingFace </a>
+
+<a href ="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb">[Google Colab Demo]</a>
+<a href ="https://huggingface.co/rrymn/SparrowVQE">[🤗 HuggingFace]</a>
 
 
 
