@@ -2,8 +2,14 @@
 
 
 <p align="center">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/650c7fbb8ffe1f53bdbe1aec/DTjDSq2yG-5Cqnk6giPFq.jpeg" width="50%" height="auto"/>
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/650c7fbb8ffe1f53bdbe1aec/DTjDSq2yG-5Cqnk6giPFq.jpeg" width="40%" height="auto"/>
 </p>
+
+<a href="https://github.com/manishkumart](https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb" target="_blank">
+<img src=https://colab.research.google.com/assets/colab-badge.svg style="margin-bottom: 5px;" />
+</a>
+
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)[https://colab.research.google.com/github/weiji14/deepbedmap/](https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb)]
 
 <p align='center', style='font-size: 16px;' >A Custom 3B parameter Model Enhanced for Educational Contexts: This specialized model integrates slide-text pairs from machine learning classes, leveraging a unique training approach. It connects a frozen pre-trained vision encoder (SigLip) with a frozen language model (Phi-2) through an innovative projector. The model employs attention mechanisms and language modeling loss to deeply understand and generate educational content, specifically tailored to the context of machine learning education. </p>
 
