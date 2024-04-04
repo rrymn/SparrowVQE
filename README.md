@@ -11,7 +11,7 @@
         <tr>
             <td align="center">
                 <a href="https://colab.research.google.com/github/rrymn/SparrowVQE/blob/main/SparrowVQE_Demo.ipynb">[Google Colab Demo]</a>
-                <a href="https://huggingface.co/rrymn/SparrowVQE">[🤗 HuggingFace]</a>
+                <a href="https://huggingface.co/spaces/rrymn/SparrowVQE">[🤗 HuggingFace Demo]</a>
             </td>
         </tr>
     </table>
