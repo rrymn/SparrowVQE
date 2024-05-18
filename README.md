@@ -25,11 +25,12 @@ A Custom 3B parameter Model Enhanced for Educational Contexts: This specialized 
 - [Project Description](#project-description)
 - [Visual Question Answering (VQA) and Visual Question Explanation (VQE)](#visual-question-answering-visual-question-explanation)
   - [Visual Question Answering (VQA)](#Visual-Question-Answering-(VQA))
-  - [Visual Question Explanation (VQE)](#Visual-Question-Explanation-(VQE)) 
-- [How to use](#how-to-use)
-- [Results](#results)
+  - [Visual Question Explanation (VQE)](#Visual-Question-Explanation-(VQE))
 - [Training Process](#training-proceess)
 - [Applications](#applications-&-benifits)
+- [How to use](#how-to-use)
+- [Results](#results)
+
 
 
 ## Introduction
@@ -58,6 +59,25 @@ The MLVQE dataset is meticulously compiled from a machine learning course and co
 - **Applications**: VQE systems are particularly useful in educational settings, where understanding and context are crucial. They help students grasp complex subjects by not only answering specific questions about visual materials (like slides from a lecture) but also explaining concepts and processes in detail.
 
 In summary, while VQA focuses on answering questions directly from visual inputs, VQE aims to provide personalised responses like professor that help deepen the user's understanding of both the question and the visual content, making it particularly valuable in educational contexts where detailed explanations are essential for learning.
+
+
+## Training Process
+The model underwent a three-stage distributed training regimen, primarily conducted on eight A100 80GB GPUs. Utilizing SLURM as the job scheduling system, the training sessions typically lasted between 9 to 11 hours for each stage.
+
+## Applications & Benifits
+Our initial focus has been on developing and refining the MLVQE (Machine Learning Visual Question Explanation) dataset through a meticulous three-stage training process. While our current dataset is specifically tailored to a machine learning class taught by one of our professors—including his transcripts and question-answer pairs—it sets the groundwork for broader applications. We envision expanding this model to accommodate various subjects, creating specialized datasets like DLVQE (Deep Learning Visual Question Explanation), NLPVQE (Natural Language Processing Visual Question Explanation), and even extending into fields such as cybersecurity and biotechnology.
+
+### The potential applications of our model include:
+
+- **Personalization of Online Learning**: Our approach personalizes online courses by providing specific, tailored responses to learners’ questions about course material. This closes the gap between students and professors, making remote learning more interactive and personal.
+
+- **Enhanced Student Engagement**: By offering instant, customized responses, our model helps students grasp complex topics more effectively, thereby improving engagement and comprehension.
+
+- **Scalability Across Disciplines**: The versatility of our model allows it to be adapted for multiple courses, offering a robust tool for educational institutions to enhance their online learning platforms.
+
+These features collectively work towards transforming traditional online education into a more dynamic and responsive experience for students across various disciplines.
+
+
 
 ## How to use
 
@@ -111,20 +131,3 @@ def predict(question, image_path):
 ## Week 10-15 Slides Summary
 ![Week 10 to Week 15 Machine Learning Concepts](/images/example_02.drawio.png)
 *This image provides a visual summary of key machine learning concepts covered between weeks 10 to 15. It illustrates topics such as the differences in model spaces between decision trees and nearest neighbors, understanding margins in SVMs, the role of Vision Transformers and MLP heads in neural networks, the effect of bagging on model variance, and an introduction to entropy in the context of decision trees.*
-
-## Training Process
-The model underwent a three-stage distributed training regimen, primarily conducted on eight A100 80GB GPUs. Utilizing SLURM as the job scheduling system, the training sessions typically lasted between 9 to 11 hours for each stage.
-
-## Applications & Benifits
-Our initial focus has been on developing and refining the MLVQE (Machine Learning Visual Question Explanation) dataset through a meticulous three-stage training process. While our current dataset is specifically tailored to a machine learning class taught by one of our professors—including his transcripts and question-answer pairs—it sets the groundwork for broader applications. We envision expanding this model to accommodate various subjects, creating specialized datasets like DLVQE (Deep Learning Visual Question Explanation), NLPVQE (Natural Language Processing Visual Question Explanation), and even extending into fields such as cybersecurity and biotechnology.
-
-### The potential applications of our model include:
-
-- **Personalization of Online Learning**: Our approach personalizes online courses by providing specific, tailored responses to learners’ questions about course material. This closes the gap between students and professors, making remote learning more interactive and personal.
-
-- **Enhanced Student Engagement**: By offering instant, customized responses, our model helps students grasp complex topics more effectively, thereby improving engagement and comprehension.
-
-- **Scalability Across Disciplines**: The versatility of our model allows it to be adapted for multiple courses, offering a robust tool for educational institutions to enhance their online learning platforms.
-
-These features collectively work towards transforming traditional online education into a more dynamic and responsive experience for students across various disciplines.
-
