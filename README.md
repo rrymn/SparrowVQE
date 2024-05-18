@@ -39,7 +39,7 @@ In the rapidly evolving field of educational technology, students often encounte
 ## Project Description
 The MLVQE dataset is meticulously compiled from a machine learning course and comprises 885 slide images coupled with 110,407 words from lecture transcripts, structured into 9,416 question-answer pairs. At the heart of our project is the SparrowVQE model, a pioneering VQA system that synthesizes the capabilities of two advanced models, SigLIP and Phi-2. This model undergoes a rigorous three-stage training regimen: multimodal pre-training to understand and integrate different forms of data, instruction tuning to align with specific educational goals, and domain fine-tuning to tailor its responses to the field of machine learning. This comprehensive training strategy allows SparrowVQE to effectively merge and interpret both visual and textual inputs, significantly boosting its ability to provide detailed, context-aware explanations. With its superior performance on the MLVQE dataset and its success in surpassing existing VQA benchmarks, SparrowVQE substantially enhances students' interaction with and comprehension of visual course material, offering a more engaging and informative learning experience.
 
-## Visual Question Answering (VQA) and Visual Question Explanation (VQE)
+## Visual Question Answering (VQA) VS Visual Question Explanation (VQE)
 ### Visual Question Answering (VQA)
 - **Objective**: The primary goal of VQA systems is to provide concise, accurate answers to questions based on visual data such as images or videos. The answers are usually short and direct, focusing on identifying and stating facts visible in the visual input.
 
@@ -58,7 +58,7 @@ The MLVQE dataset is meticulously compiled from a machine learning course and co
 
 - **Applications**: VQE systems are particularly useful in educational settings, where understanding and context are crucial. They help students grasp complex subjects by not only answering specific questions about visual materials (like slides from a lecture) but also explaining concepts and processes in detail.
 
-In summary, while VQA focuses on answering questions directly from visual inputs, VQE aims to provide personalised responses like professor that help deepen the user's understanding of both the question and the visual content, making it particularly valuable in educational contexts where detailed explanations are essential for learning.
+While VQA focuses on answering questions directly from visual inputs, VQE aims to provide personalised responses like professor that help deepen the user's understanding of both the question and the visual content, making it particularly valuable in educational contexts where detailed explanations are essential for learning.
 
 
 ## Training Process
