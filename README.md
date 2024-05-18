@@ -115,7 +115,7 @@ def predict(question, image_path):
 ## Training Process
 The model underwent a three-stage distributed training regimen, primarily conducted on eight A100 80GB GPUs. Utilizing SLURM as the job scheduling system, the training sessions typically lasted between 9 to 11 hours for each stage.
 
-## Applications & Benifits`
+## Applications & Benifits
 Our initial focus has been on developing and refining the MLVQE (Machine Learning Visual Question Explanation) dataset through a meticulous three-stage training process. While our current dataset is specifically tailored to a machine learning class taught by one of our professors—including his transcripts and question-answer pairs—it sets the groundwork for broader applications. We envision expanding this model to accommodate various subjects, creating specialized datasets like DLVQE (Deep Learning Visual Question Explanation), NLPVQE (Natural Language Processing Visual Question Explanation), and even extending into fields such as cybersecurity and biotechnology.
 
 ### The potential applications of our model include:
