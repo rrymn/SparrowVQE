@@ -26,8 +26,8 @@ A Custom 3B parameter Model Enhanced for Educational Contexts: This specialized 
 - [Visual Question Answering (VQA) VS Visual Question Explanation (VQE)](#Visual-Question-Answering-(VQA)-VS-Visual-Question-Explanation-(VQE))
   - [Visual Question Answering (VQA)](#Visual-Question-Answering-(VQA))
   - [Visual Question Explanation (VQE)](#Visual-Question-Explanation-(VQE))
-- [Training Process](#training-proceess)
-- [Applications](#applications-&-benifits)
+- [Training Process](#training-process)
+- [Applications & Benifits](#applications-&-benifits)
 - [How to use](#how-to-use)
 - [Results](#results)
 
