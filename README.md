@@ -1,4 +1,4 @@
-# SparrowVQE
+# SparrowVQE: Visual Question Explanation for Course Content Understanding
 
 
 <p align="center">
